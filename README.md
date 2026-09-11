@@ -26,4 +26,5 @@ Python day to day (pandas, NumPy, scikit-learn, geopandas), plus Streamlit and D
 ## Reach me
 
 https://www.linkedin.com/in/oguz-yusuf/
+
 oguzyu22@itu.edu.tr
