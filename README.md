@@ -9,13 +9,13 @@
 
 İTÜ Ulusal Yazılım ve Sertifikasyon Merkezi'nde (UYSM), Ar-Ge departmanında yarı zamanlı çalışırken (Aralık 2025 - Haziran 2026) yürüttüğüm bir veri mühendisliği ve analiz projesi; Türkiye'nin ulusal buğday-arpa verim tahmin programından gelen gerçek tarımsal saha ölçüm verisiyle çalışıldı. 291 tutarsız Excel dosyasını doğrulanmış tek bir veri setine dönüştüren uçtan uca bir Python ETL pipeline'ı kuruldu, bu süreçte kaynak tablolardaki 20 gerçek hesaplama hatası bulunup düzeltildi. Çalışma devam ettikçe kapsam büyüdü: ham veri havuzu 79 ile yayılan ~800 ölçüme büyüdü, 90 yinelemeli temizlik sürümünden sonra (her düşen satır gerekçesiyle belgelenerek) 42 ile yayılan, 617 kayıtlık analiz-hazır bir veri setine indirgendi; bitki morfolojisi ile verim arasında istatistiksel olarak anlamlı korelasyonlar bulundu (r'ye kadar 0.72). Kurum onayıyla artık public: [uysm-wheat-barley-yield-analysis](https://github.com/yusuf-oguz/uysm-wheat-barley-yield-analysis)
 
-### Data Center Location Optimization
-
-Osmancan Sarı ve Efe Karan Hacımustafaoğlu ile birlikte yürütülen bir takım projesi: Türkiye'nin 81 ili arasından veri merkezi kurulacak en uygun illeri, ikili tamsayılı programlama (PuLP + CBC) ile, beş ağırlıklı yerleşim kriterine (arazi uygunluğu, deprem riski, bağlantı, elektrik maliyeti, soğutma verimliliği) göre seçiyor. İnteraktif, canlı bir uygulama olarak deploy edildi: [data-center-location-optimization](https://github.com/yusuf-oguz/data-center-location-optimization) ([canlı demo](https://data-center-location-optimization.streamlit.app/))
-
 ### Werewolf Agentic Arena
 
 Aynı LLM üzerinde dört standart agentic akıl yürütme desenini (Baseline, Reflection, ReAct, Tree of Thoughts), bir Werewolf (Vampir Köylü/Mafia) sosyal çıkarım oyunu içinde karşılaştırıyor. Oyun ortamının tasarımı var olan çalışmalardan uyarlandı (konuşma sırası Werewolf Arena'dan, oyun durumu tasarımı Xu vd.'den), yeniden icat edilmedi; asıl katkı dört deseni aynı koşullarda çalıştırmak. İstatistiksel olarak anlamlı bir örneklem büyüklüğüne ulaşmanın maliyeti netleşince, 14 oyunda bilinçli olarak durduruldu. [werewolf-agentic-arena](https://github.com/yusuf-oguz/werewolf-agentic-arena), oyun logları [canlı bir dashboard'dan](https://werewolf-agentic-arena.onrender.com/) incelenebilir.
+
+### Data Center Location Optimization
+
+Osmancan Sarı ve Efe Karan Hacımustafaoğlu ile birlikte yürütülen bir takım projesi: Türkiye'nin 81 ili arasından veri merkezi kurulacak en uygun illeri, ikili tamsayılı programlama (PuLP + CBC) ile, beş ağırlıklı yerleşim kriterine (arazi uygunluğu, deprem riski, bağlantı, elektrik maliyeti, soğutma verimliliği) göre seçiyor. İnteraktif, canlı bir uygulama olarak deploy edildi: [data-center-location-optimization](https://github.com/yusuf-oguz/data-center-location-optimization) ([canlı demo](https://data-center-location-optimization.streamlit.app/))
 
 ### Micromobility Data Pipeline
 
@@ -43,13 +43,13 @@ AI & Data Engineering student at Istanbul Technical University (İTÜ), 4th year
 
 A data engineering and analysis project done during a part-time position (Dec 2025 - Jun 2026) at İTÜ's National Software and Certification Center (UYSM), R&D department, working with real agricultural field-measurement data from Turkey's national wheat and barley yield-forecasting program. Built an end-to-end Python ETL pipeline that turned 291 inconsistent Excel files into a validated dataset, catching and fixing 20 real computational errors in the source spreadsheets along the way. The scope grew substantially over time: the raw pool reached about 800 measurements across 79 provinces, and after 90 iterative cleaning versions (every dropped row documented with a reason) it became a 617-record, 42-province analysis-ready dataset, with statistically significant correlations between plant morphology and yield (r up to 0.72). Now public with institutional approval: [uysm-wheat-barley-yield-analysis](https://github.com/yusuf-oguz/uysm-wheat-barley-yield-analysis)
 
-### Data Center Location Optimization
-
-A team project (with Osmancan Sarı and Efe Karan Hacımustafaoğlu) that selects the best provinces among Turkey's 81 for data center placement, using binary integer programming (PuLP + CBC) over five weighted siting criteria: land availability, seismic risk, connectivity, power cost, and cooling efficiency. Deployed as an interactive, live app: [data-center-location-optimization](https://github.com/yusuf-oguz/data-center-location-optimization) ([live demo](https://data-center-location-optimization.streamlit.app/))
-
 ### Werewolf Agentic Arena
 
 Implements and compares four standard agentic reasoning patterns, Baseline, Reflection, ReAct, and Tree of Thoughts, on the same LLM, inside a Werewolf (Mafia) social deduction game. The environment design is adapted from existing research (Werewolf Arena's turn order, Xu et al.'s game-state design), not reinvented; the actual contribution is running all four patterns under matched conditions. Stopped deliberately at 14 games once the cost of reaching a statistically meaningful sample became clear. [werewolf-agentic-arena](https://github.com/yusuf-oguz/werewolf-agentic-arena), game logs browsable in a [live dashboard](https://werewolf-agentic-arena.onrender.com/).
+
+### Data Center Location Optimization
+
+A team project (with Osmancan Sarı and Efe Karan Hacımustafaoğlu) that selects the best provinces among Turkey's 81 for data center placement, using binary integer programming (PuLP + CBC) over five weighted siting criteria: land availability, seismic risk, connectivity, power cost, and cooling efficiency. Deployed as an interactive, live app: [data-center-location-optimization](https://github.com/yusuf-oguz/data-center-location-optimization) ([live demo](https://data-center-location-optimization.streamlit.app/))
 
 ### Micromobility Data Pipeline
 
