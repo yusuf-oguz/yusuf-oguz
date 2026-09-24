@@ -3,7 +3,7 @@
 <details>
 <summary>🇹🇷 Türkçe özet için tıklayın</summary>
 
-İstanbul Teknik Üniversitesi, Yapay Zeka ve Veri Mühendisliği bölümünde 4. sınıf öğrencisiyim (tamamı İngilizce eğitim veren bir program). Henüz tek bir alt alana karar vermedim, veri mühendisliği pipeline'ları, klasik makine öğrenmesi, matematiksel optimizasyon ve LLM tabanlı agentic sistemler arasında çalıştım, ve bu projeleri nereye yöneleceğimi anlamak için bir araç olarak kullanıyorum. Aşağıdaki altı proje ilk göstereceğim işler, her birinin arkasında gerçek bir sonuç var, sadece çalışan bir demo değil.
+İstanbul Teknik Üniversitesi, Yapay Zeka ve Veri Mühendisliği bölümünde 4. sınıf öğrencisiyim (tamamı İngilizce eğitim veren bir program). Henüz tek bir alt alana karar vermedim, veri mühendisliği pipeline'ları, klasik makine öğrenmesi, matematiksel optimizasyon ve LLM tabanlı agentic sistemler arasında çalıştım, ve bu projeleri nereye yöneleceğimi anlamak için bir araç olarak kullanıyorum. Aşağıda her birinin arkasında gerçek bir sonuç olan altı projemi açıklıyorum. 
 
 ### UYSM: Buğday ve Arpa Verim Analizi
 
